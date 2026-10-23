@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="execBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="silverPlatinum" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F1F5F9" />
+      <stop offset="50%" stop-color="#CBD5E1" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" rx="24" fill="url(#execBg)" />
+  <rect width="396" height="396" x="2" y="2" rx="22" fill="none" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1.5" />
+
+  <!-- Outer Architectural Ring -->
+  <circle cx="200" cy="180" r="120" fill="none" stroke="rgba(148, 163, 184, 0.15)" stroke-width="1" />
+  <circle cx="200" cy="180" r="105" fill="none" stroke="rgba(56, 189, 248, 0.25)" stroke-width="1.5" stroke-dasharray="4,6" />
+
+  <!-- Executive Monogram Shield / Crest -->
+  <path d="M 200 90 L 255 115 C 255 170 200 215 200 215 C 200 215 145 170 145 115 Z" 
+        fill="rgba(15, 23, 42, 0.85)" stroke="url(#silverPlatinum)" stroke-width="2" />
+
+  <!-- Minimalist Security Keyhole / Integrity Emblem -->
+  <path d="M 200 120 L 235 135 C 235 175 200 200 200 200 C 200 200 165 175 165 135 Z" 
+        fill="none" stroke="url(#goldAccent)" stroke-width="1.5" opacity="0.9" />
+
+  <!-- Monogram Initials DM -->
+  <text x="200" y="168" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="34" font-weight="700" fill="#F8FAFC" text-anchor="middle" letter-spacing="3">DM</text>
+
+  <!-- Professional Typography -->
+  <text x="200" y="275" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="20" font-weight="700" fill="#F8FAFC" text-anchor="middle" letter-spacing="1">DINESH MOHAN</text>
+  
+  <rect x="80" y="295" width="240" height="24" rx="4" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+  <text x="200" y="311" font-family="'Inter', sans-serif" font-size="10.5" font-weight="600" fill="#38BDF8" text-anchor="middle" letter-spacing="1.5">SYSADMIN &bull; DBA &bull; ISO 27001 AUDITOR</text>
+
+  <text x="200" y="348" font-family="'Inter', sans-serif" font-size="11" font-weight="500" fill="#64748B" text-anchor="middle" letter-spacing="0.5">HEALTHCARE IT &bull; AWS INFRASTRUCTURE</text>
+</svg>

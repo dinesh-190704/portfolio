@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#060913"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  <!-- Dark navy rounded square base -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <!-- Crisp accent border -->
+  <rect x="14" y="14" width="484" height="484" rx="98" fill="none" stroke="#0284c7" stroke-width="16" stroke-opacity="0.4"/>
+  <!-- Centered high-contrast DM monogram for 16px to 512px readability -->
+  <text x="256" y="348" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="250" font-weight="900" letter-spacing="-8" fill="url(#accentGrad)" text-anchor="middle">DM</text>
+</svg>
